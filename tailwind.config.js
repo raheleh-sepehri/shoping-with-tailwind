@@ -30,8 +30,8 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "logo-img": "url('/assets/images/Logo.png')",
-        "banner-img": "url('/assets/images/banner.png')",
+        "logo-img": "url('/images/Logo.png')",
+        "banner-img": "url('/images/banner.png')",
       },
       screens: {
         xs: "300px",
