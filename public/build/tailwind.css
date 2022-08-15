@@ -543,6 +543,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-ml-2{
   margin-left: -0.5rem;
 }
+.mr-1{
+  margin-right: 0.25rem;
+}
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -672,6 +675,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .max-w-\[150px\]{
   max-width: 150px;
 }
+.max-w-screen-xl{
+  max-width: 1280px;
+}
 .flex-1{
   flex: 1 1 0%;
 }
@@ -753,10 +759,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-y-5{
   row-gap: 1.25rem;
 }
-.gap-x-5{
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
-}
 .gap-x-1{
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
@@ -767,6 +769,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .gap-x-14{
   -moz-column-gap: 3.5rem;
        column-gap: 3.5rem;
+}
+.gap-x-5{
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 .gap-y-6{
   row-gap: 1.5rem;
@@ -962,6 +968,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 .py-9{
   padding-top: 2.25rem;
@@ -1257,6 +1267,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:w-6{
     width: 1.5rem;
   }
+  .sm\:gap-x-2{
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
 }
 @media (min-width: 768px){
   .md\:-left-1{
@@ -1319,6 +1333,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .md\:grid-rows-\[55px_minmax\(500px\2c _1fr\)\]{
+    grid-template-rows: 55px minmax(500px, 1fr);
+  }
   .md\:grid-rows-\[55px_minmax\(500px\2c _1fr\)_100px\]{
     grid-template-rows: 55px minmax(500px, 1fr) 100px;
   }
@@ -1333,6 +1350,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
   .md\:items-start{
     align-items: flex-start;
+  }
+  .md\:gap-8{
+    gap: 2rem;
   }
   .md\:gap-x-3{
     -moz-column-gap: 0.75rem;
@@ -1363,13 +1383,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:p-0{
     padding: 0px;
   }
-  .md\:py-0{
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
   .md\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .md\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .md\:py-4{
     padding-top: 1rem;
@@ -1389,6 +1409,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+  .md\:text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
@@ -1396,10 +1420,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-  .md\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
   }
 }
 @media (min-width: 1024px){
@@ -1475,6 +1495,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:border-none{
     border-style: none;
   }
+  .lg\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .lg\:pt-0{
     padding-top: 0px;
   }
@@ -1514,6 +1538,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
   .xl\:w-1\/3{
     width: 33.333333%;
+  }
+  .xl\:max-w-screen-2xl{
+    max-width: 1536px;
   }
   .xl\:grid-cols-5{
     grid-template-columns: repeat(5, minmax(0, 1fr));
