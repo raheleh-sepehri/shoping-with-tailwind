@@ -1,5 +1,5 @@
 @import url("/src/css/font.css");
-@import url('/assets/images/Logo.png');
+@import url('/images/Logo.png');
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
@@ -654,9 +654,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-2{
   width: 0.5rem;
 }
-.w-16{
-  width: 4rem;
-}
 .w-2\/3{
   width: 66.666667%;
 }
@@ -911,10 +908,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 0.7;
 }
 .bg-logo-img{
-  background-image: url('/assets/images/Logo.png');
+  background-image: url('/images/Logo.png');
 }
 .bg-banner-img{
-  background-image: url('/assets/images/banner.png');
+  background-image: url('/images/banner.png');
 }
 .bg-cover{
   background-size: cover;
