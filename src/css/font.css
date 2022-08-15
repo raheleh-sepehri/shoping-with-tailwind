@@ -2,55 +2,55 @@
     font-family: iranyekan;
     font-style: normal;
     font-weight: bold;
-    src: url("/assets/fonts/iranyekanwebbold.ttf");
+    src: url("/fonts/iranyekanwebbold.ttf");
    
 }
 @font-face {
     font-family: iranyekan;
     font-style: normal;
     font-weight: 100;
-    src: url("/assets/fonts/iranyekanwebthin.ttf");
+    src: url("/fonts/iranyekanwebthin.ttf");
    
 }
 @font-face {
     font-family: iranyekan;
     font-style: normal;
     font-weight: 300;
-    src: url("/assets/fonts/iranyekanweblight.ttf");
+    src: url("/fonts/iranyekanweblight.ttf");
    
 }
 @font-face {
     font-family: iranyekan;
     font-style: normal;
     font-weight: normal;
-    src: url("/assets/fonts/iranyekanwebregular.ttf");
+    src: url("/fonts/iranyekanwebregular.ttf");
    
 }
 @font-face {
     font-family: iranyekan;
     font-style: normal;
     font-weight: 500;
-    src: url("/assets/fonts/iranyekanwebmedium.ttf");
+    src: url("/fonts/iranyekanwebmedium.ttf");
    
 }
 @font-face {
     font-family: iranyekan;
     font-style: normal;
     font-weight: 800;
-    src: url("/assets/fonts/iranyekanwebextrabold.ttf");
+    src: url("/fonts/iranyekanwebextrabold.ttf");
    
 }
 @font-face {
     font-family: iranyekan;
     font-style: normal;
     font-weight: 850;
-    src: url("/assets/fonts/iranyekanwebblack.ttf");
+    src: url("/fonts/iranyekanwebblack.ttf");
    
 }
 @font-face {
     font-family: iranyekan;
     font-style: normal;
     font-weight: 900;
-    src: url("/assets/fonts/iranyekanwebextrablack.ttf");
+    src: url("/fonts/iranyekanwebextrablack.ttf");
    
 }
