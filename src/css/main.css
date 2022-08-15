@@ -1,5 +1,5 @@
 @import url("/src/css/font.css");
-@import url('/assets/images/Logo.png');
+@import url('/images/Logo.png');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
